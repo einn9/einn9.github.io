@@ -1,0 +1,30 @@
+body {
+    background-image: url('https://i.imgur.com/2xKp6wJ.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    margin: 0;
+    width: 100%
+}
+
+.main{
+    font-family: 'Pacifico', cursive;  /* Clean, modern sans-serif font */
+    font-size: 13px;  /* Adjust to your desired size */
+    font-weight: normal;  /* Light, non-bold text */
+    font-style: normal;  /* Regular, non-italic text */
+    line-height: 1.6;  /* Spacing between lines for readability */
+    letter-spacing: 0.1px;  /* Slight letter spacing for a modern feel */
+    color: black;  /* Dark text for contrast */
+    text-align: left;  /* Centered text */
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-style: italic;
+    max-width: 500px;  /* Optional: limit the maximum width */
+    box-sizing: border-box;  /* Ensures padding doesn't overflow the container */
+    margin-left: 0;  /* Keeps the text starting from the left */
+    margin-right: auto;  /* Ensures no extra space on the right */
+}
+
+.link{
+color: black;}
