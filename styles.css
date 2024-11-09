@@ -1,57 +1,79 @@
-/* General styles for desktop */
 body {
     background-color: #292724; /* Set the background for the entire page */
 }
 
+/* flowing over water */
 .top {
     font-family: 'Techno', cursive;
     font-style: italic;
     font-weight: bold;
     color: #d6aedd;
     padding: 10px 20px;
-    text-align: left;  /* Ensure it's left-aligned */
 }
 
-/* Main text written "my name is Daniel" */
+.top h1 {
+    font-size: 0.7rem; /* Keep the original font size for desktop */
+}
+
+/* Main text written "myname is daniel" */
 .main {
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;  /* Make the font size larger for desktop */
+    font-family: 'Roboto', cursive;  /* Clean, modern sans-serif font */
+    font-size: 13px;  /* Keep the original size for desktop */
     font-weight: normal;
+    font-style: normal;
     line-height: 1.6;
     letter-spacing: 0.1px;
     color: #A8C2A5;
     text-align: left;
     background-size: cover;
+    background-repeat: no-repeat;
     width: 100%;
     box-sizing: border-box;
     padding-left: 10px;
 }
 
-/* Cards and other content */
+.content-container {
+    box-sizing: border-box;
+}
+
+/* The Text in Nav */
+.card {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
 .card-body {
     box-shadow: none;
     background-color: #CEBAD1;
     font-family: 'Dancing Script', handwriting;
     font-weight: bold;
-    font-size: 1rem;
+    font-size: 0.9rem;  /* Keep the original card font size */
     text-align: center;
     padding: 20px;
 }
 
-/* Card title and text */
 .card-title {
-    font-size: 1.3rem;
+    font-size: 1.3rem; 
     font-weight: bold;
     margin-bottom: 10px;
 }
 
 .card-text {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     line-height: 1.6;
     margin-bottom: 15px;
 }
 
-/* Button styling */
+.card-body img {
+    width: 100%;
+    height: auto;
+    border: none;
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
 .button {
     display: block;
     padding: 10px 20px;
@@ -65,10 +87,9 @@ body {
 }
 
 .button-hover {
-    background-color: #45a049; /* Darker green on hover */
+    background-color: #45a049;
 }
 
-/* Footer */
 footer {
     font-size: 14px;
     text-align: center;
@@ -80,32 +101,33 @@ strong {
     font-weight: bold;
 }
 
-/* Example of targeting devices with a max width of 768px (tablets and mobile phones) */
+/* Media Query for smaller screens (mobile & tablets) */
 @media (max-width: 768px) {
     .top h1 {
-        font-size: 1.2rem; /* Larger font for mobile */
-        text-align: center; /* Center the header on mobile */
+        font-size: 1.2rem;  /* Adjust heading font size for mobile */
+        text-align: center;  /* Center the header on mobile */
     }
 
     .row {
-        display: block; /* Stack the cards vertically */
+        display: block;  /* Stack the cards vertically */
     }
 
     .col-md-4 {
-        width: 100%; /* Make each card take up the full width */
-        margin-bottom: 20px; /* Add some space between the cards */
+        width: 100%;  /* Full-width cards on mobile */
+        margin-bottom: 20px;
     }
 
     .main {
-        font-size: 14px;  /* Slightly smaller text for mobile */
+        font-size: 14px;  /* Adjust text size on mobile */
     }
 
     .card-body {
-        font-size: 0.9rem; /* Adjust card font size for mobile */
+        font-size: 0.9rem;  /* Adjust font size for mobile */
     }
 
     .button {
-        font-size: 1rem; /* Adjust button size on mobile */
+        font-size: 1rem;  /* Adjust button size for mobile */
     }
 }
+
 
