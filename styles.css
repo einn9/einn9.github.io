@@ -97,6 +97,13 @@ strong {
         font-size: 1rem;
     }
 }
+* {
+    border: none;
+    outline: none; /* Ensures no unwanted outline as well */
+}
 
+.card, .row, .col-md-4 {
+    border: none;
+}
 
 
