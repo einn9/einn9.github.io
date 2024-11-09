@@ -3,7 +3,7 @@ body {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    height: 100vh;
+    height: 100%; /* Ensure the page fills the entire height */
     margin: 0;
     width: 100%
 }
