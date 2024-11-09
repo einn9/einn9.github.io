@@ -9,15 +9,16 @@ body {
         text-align: center; /* Center the header on mobile */
     }
 
-@media (max-width: 768px) {
     .row {
         display: block; /* Stack the cards vertically */
     }
+
     .col-md-4 {
         width: 100%; /* Make each card take up the full width */
         margin-bottom: 20px; /* Add some space between the cards */
     }
 }
+
     
 /* flowing over water*/
 .top{
