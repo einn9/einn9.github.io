@@ -1,5 +1,83 @@
+/* General styles for desktop */
 body {
     background-color: #292724; /* Set the background for the entire page */
+}
+
+.top {
+    font-family: 'Techno', cursive;
+    font-style: italic;
+    font-weight: bold;
+    color: #d6aedd;
+    padding: 10px 20px;
+    text-align: left;  /* Ensure it's left-aligned */
+}
+
+/* Main text written "my name is Daniel" */
+.main {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;  /* Make the font size larger for desktop */
+    font-weight: normal;
+    line-height: 1.6;
+    letter-spacing: 0.1px;
+    color: #A8C2A5;
+    text-align: left;
+    background-size: cover;
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 10px;
+}
+
+/* Cards and other content */
+.card-body {
+    box-shadow: none;
+    background-color: #CEBAD1;
+    font-family: 'Dancing Script', handwriting;
+    font-weight: bold;
+    font-size: 1rem;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Card title and text */
+.card-title {
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+/* Button styling */
+.button {
+    display: block;
+    padding: 10px 20px;
+    background-color: #6C757D;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: 1.1rem;
+    white-space: nowrap;
+}
+
+.button-hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+/* Footer */
+footer {
+    font-size: 14px;
+    text-align: center;
+    padding: 10px;
+    color: black;
+}
+
+strong {
+    font-weight: bold;
 }
 
 /* Example of targeting devices with a max width of 768px (tablets and mobile phones) */
@@ -17,113 +95,17 @@ body {
         width: 100%; /* Make each card take up the full width */
         margin-bottom: 20px; /* Add some space between the cards */
     }
+
+    .main {
+        font-size: 14px;  /* Slightly smaller text for mobile */
+    }
+
+    .card-body {
+        font-size: 0.9rem; /* Adjust card font size for mobile */
+    }
+
+    .button {
+        font-size: 1rem; /* Adjust button size on mobile */
+    }
 }
 
-    
-/* flowing over water*/
-.top{
-    font-family: 'Techno', cursive;
-    font-style: italic;
-    font-weight: bold;
-    color: #d6aedd;
-    padding: 10px 20px;  /* Padding inside the header */
-}
-
-.top h1{
-    font-size: 0.7rem;
-}
-
-/* Main text written "myname is daniel"*/
-.main{
-    font-family: 'Roboto', sans-serif;  /* Clean, modern sans-serif font */
-    font-size: 13px;  /* Adjust to your desired size */
-    font-weight: normal;  /* Light, non-bold text */
-    font-style: normal;  /* Regular, non-italic text */
-    line-height: 1.6;  /* Spacing between lines for readability */
-    letter-spacing: 0.1px;  /* Slight letter spacing for a modern feel */
-    color: #A8C2A5;  /* Dark text for contrast */
-    text-align: left;  /* Centered text */
-    background-size: cover;
-    font-style: italic;
-
-    width: 100%; /* Background spans the full width of the screen */
-    box-sizing: border-box; /* Include padding in width calculation */
-    padding-left: 10px; /* Ensures padding is added from the left side */
-}
-
-.content-container {
-    box-sizing: border-box;
-}
-
-/* The Text in Nav */
-
-.card {
-    margin: 0; /* Remove any margin */
-    padding: 0; /* Remove any padding */
-    border: none; /* Remove border */
-}
-
-.card-body{
-box-shadow: none;
-background-color: #CEBAD1;
-font-family: 'Dancing Script', handwriting;
-font-weight: bold;
-font-size: 0.9rem;
-text-align: center;
-padding: 20px; /* Space around the text */
-    margin: 0; /* Remove any margin */
-    border: none; /* Remove border */
-}
-
-.card-body img {
-    width: 100%;
-    height: auto;
-}
-
-.card-title{
-    font-size: 1.3rem; /* Larger font size for the title */
-    font-weight: bold; /* Make the title bold */
-    margin-bottom: 10px; /* Space below the title */}
-
-.card-text {
-    font-size: 1.3rem; /* Smaller font size for the body text */
-    line-height: 1.6; /* Line height for readability */
-    margin-bottom: 15px;
-    display: inline-block; /* Make sure text and button are aligned properly */
-}
-
-.card-body img {
-    width: 100%; /* Ensure the image takes up the full width of the card */
-    height: auto; /* Maintain the aspect ratio of the image */
-    border: none; /* Remove any border around the image */
-    display: block; /* Remove any extra space below the image */
-    padding: 0; /* Remove padding */
-    margin: 0; /* Remove margin */
-}
-
-.button{
-    display: block;
-    padding: 10px 20px;
-    background-color: #6C757D; /* Green */
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-    margin-top: 10px;
-    font-size: 1.1rem;
-    white-space: nowrap; /* Ensure the button text doesn't wrap */
-}
-
-.button-hover{
-    background-color: #45a049; /* Darker green on hover */
-}
-
-footer {
-font-size: 14px;
-text-align: center;
-padding: 10px;
-color: black;
-}
-
-strong {
-font-weight: bold;
-}
