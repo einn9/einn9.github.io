@@ -2,6 +2,23 @@ body {
     background-color: #292724; /* Set the background for the entire page */
 }
 
+/* Example of targeting devices with a max width of 768px (tablets and mobile phones) */
+@media (max-width: 768px) {
+    .top h1 {
+        font-size: 1.2rem; /* Larger font for mobile */
+        text-align: center; /* Center the header on mobile */
+    }
+
+@media (max-width: 768px) {
+    .row {
+        display: block; /* Stack the cards vertically */
+    }
+    .col-md-4 {
+        width: 100%; /* Make each card take up the full width */
+        margin-bottom: 20px; /* Add some space between the cards */
+    }
+}
+    
 /* flowing over water*/
 .top{
     font-family: 'Techno', cursive;
@@ -55,6 +72,11 @@ text-align: center;
 padding: 20px; /* Space around the text */
     margin: 0; /* Remove any margin */
     border: none; /* Remove border */
+}
+
+.card-body img {
+    width: 100%;
+    height: auto;
 }
 
 .card-title{
