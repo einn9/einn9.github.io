@@ -1,8 +1,7 @@
 body {
-    background-color: #292724; /* Set the background for the entire page */
+    background-color: #292724;
 }
 
-/* flowing over water */
 .top {
     font-family: 'Techno', cursive;
     font-style: italic;
@@ -12,34 +11,21 @@ body {
 }
 
 .top h1 {
-    font-size: 0.7rem;  /* Keep the font size here */
+    font-size: 0.7rem;
+    text-align: center;
 }
 
-/* Main text written "myname is daniel" */
 .main {
-    font-family: 'Roboto', cursive;  /* Clean, modern sans-serif font */
-    font-size: 13px;  /* Keep the original size for desktop */
+    font-family: 'Roboto', cursive;
+    font-size: 13px;
     font-weight: normal;
     line-height: 1.6;
     letter-spacing: 0.1px;
     color: #A8C2A5;
     text-align: left;
-    background-size: cover;
-    background-repeat: no-repeat;
     width: 100%;
     box-sizing: border-box;
     padding-left: 10px;
-}
-
-.content-container {
-    box-sizing: border-box;
-}
-
-/* The Text in Nav */
-.card {
-    margin: 0;
-    padding: 0;
-    border: none;
 }
 
 .card-body {
@@ -47,20 +33,8 @@ body {
     background-color: #CEBAD1;
     font-family: 'Dancing Script', handwriting;
     font-weight: bold;
-    font-size: 0.9rem;  /* Keep the original card font size */
+    font-size: 0.9rem;
     padding: 20px;
-}
-
-.card-title {
-    font-size: 1.3rem; 
-    font-weight: bold;
-    margin-bottom: 10px;
-}
-
-.card-text {
-    font-size: 1.3rem;
-    line-height: 1.6;
-    margin-bottom: 15px;
 }
 
 .card-body img {
@@ -96,33 +70,33 @@ strong {
     font-weight: bold;
 }
 
-/* Media Query for smaller screens (mobile & tablets) */
 @media (max-width: 768px) {
     .top h1 {
-        font-size: 1.2rem;  /* Adjust heading font size for mobile */
-        text-align: center;  /* Center the header on mobile */
+        font-size: 1.2rem;
+        text-align: center;
     }
 
     .row {
-        display: block;  /* Stack the cards vertically */
+        display: block;
     }
 
     .col-md-4 {
-        width: 100%;  /* Full-width cards on mobile */
+        width: 100%;
         margin-bottom: 20px;
     }
 
     .main {
-        font-size: 14px;  /* Adjust text size on mobile */
+        font-size: 14px;
     }
 
     .card-body {
-        font-size: 0.9rem;  /* Adjust font size for mobile */
+        font-size: 0.9rem;
     }
 
     .button {
-        font-size: 1rem;  /* Adjust button size for mobile */
+        font-size: 1rem;
     }
 }
+
 
 
