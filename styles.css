@@ -12,7 +12,7 @@ body {
 }
 
 .top h1 {
-    font-size: 0.7rem; /* Keep the original font size for desktop */
+    font-size: 0.7rem;  /* Keep the font size here */
 }
 
 /* Main text written "myname is daniel" */
@@ -20,7 +20,6 @@ body {
     font-family: 'Roboto', cursive;  /* Clean, modern sans-serif font */
     font-size: 13px;  /* Keep the original size for desktop */
     font-weight: normal;
-    font-style: normal;
     line-height: 1.6;
     letter-spacing: 0.1px;
     color: #A8C2A5;
@@ -49,7 +48,6 @@ body {
     font-family: 'Dancing Script', handwriting;
     font-weight: bold;
     font-size: 0.9rem;  /* Keep the original card font size */
-    text-align: center;
     padding: 20px;
 }
 
@@ -69,9 +67,6 @@ body {
     width: 100%;
     height: auto;
     border: none;
-    display: block;
-    padding: 0;
-    margin: 0;
 }
 
 .button {
