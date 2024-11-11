@@ -67,7 +67,7 @@ footer .copyright {
         font-size: 18px;
         display: inline-block;
         margin-top: 20px;
-        color: white; /* Make the link color white on mobile */
+        color: white !important; /* Make the link color white on mobile */
     }
 }
 
