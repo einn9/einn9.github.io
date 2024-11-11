@@ -1,107 +1,176 @@
 body {
-    background-color: #292724;
+    background-color: #292724; /* Set the background for the entire page */
 }
 
-.top {
+/* flowing over water*/
+.top{
     font-family: 'Techno', cursive;
     font-style: italic;
     font-weight: bold;
     color: #d6aedd;
-    padding: 10px 20px;
+    padding: 10px 20px;  /* Padding inside the header */
 }
 
-.top h1 {
+.top h1{
     font-size: 0.7rem;
-    text-align: center;
 }
 
-.main {
-    font-family: 'Roboto', cursive;
-    font-size: 13px;
-    font-weight: normal;
-    line-height: 1.6;
-    letter-spacing: 0.1px;
-    color: #A8C2A5;
-    text-align: left;
-    width: 100%;
+/* Main text written "myname is daniel"*/
+.main{
+    font-family: 'Roboto', cursive;  /* Clean, modern sans-serif font */
+    font-size: 13px;  /* Adjust to your desired size */
+    font-weight: normal;  /* Light, non-bold text */
+    font-style: normal;  /* Regular, non-italic text */
+    line-height: 1.6;  /* Spacing between lines for readability */
+    letter-spacing: 0.1px;  /* Slight letter spacing for a modern feel */
+    color: #A8C2A5;  /* Dark text for contrast */
+    text-align: left;  /* Centered text */
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    width: 100%; /* Background spans the full width of the screen */
+    box-sizing: border-box; /* Include padding in width calculation */
+    padding-left: 10px; /* Ensures padding is added from the left side */
+}
+
+.content-container {
     box-sizing: border-box;
-    padding-left: 10px;
 }
 
-.card-body {
-    box-shadow: none;
-    background-color: #CEBAD1;
-    font-family: 'Dancing Script', handwriting;
-    font-weight: bold;
-    font-size: 0.9rem;
-    padding: 20px;
+/* The Text in Nav */
+
+.card {
+    margin: 0; /* Remove any margin */
+    padding: 0; /* Remove any padding */
+    border: none; /* Remove border */
+}
+
+.card-body{
+box-shadow: none;
+background-color: #CEBAD1;
+font-family: 'Dancing Script', handwriting;
+font-weight: bold;
+font-size: 0.9rem;
+text-align: center;
+padding: 20px; /* Space around the text */
+    margin: 0; /* Remove any margin */
+    border: none; /* Remove border */
+}
+
+.card-title{
+    font-size: 2.5rem; /* Larger font size for the title */
+    font-weight: bold; /* Make the title bold */
+    margin-bottom: 10px; /* Space below the title */}
+
+.card-text {
+    font-size: 1.3rem; /* Smaller font size for the body text */
+    line-height: 1.6; /* Line height for readability */
+    margin-bottom: 15px;
+    display: inline-block; /* Make sure text and button are aligned properly */
 }
 
 .card-body img {
-    width: 100%;
-    height: auto;
-    border: none;
+    width: 100%; /* Ensure the image takes up the full width of the card */
+    height: auto; /* Maintain the aspect ratio of the image */
+    border: none; /* Remove any border around the image */
+    display: block; /* Remove any extra space below the image */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
 }
 
-.button {
+.button{
     display: block;
     padding: 10px 20px;
-    background-color: #6C757D;
+    background-color: #6C757D; /* Green */
     color: white;
     text-decoration: none;
     border-radius: 5px;
     margin-top: 10px;
     font-size: 1.1rem;
-    white-space: nowrap;
+    white-space: nowrap; /* Ensure the button text doesn't wrap */
 }
 
-.button-hover {
-    background-color: #45a049;
+.button-hover{
+    background-color: #45a049; /* Darker green on hover */
 }
 
 footer {
     font-size: 14px;
     text-align: center;
-    padding: 10px;
+    padding: 10px; /* Corrected padding */
     color: black;
 }
 
 strong {
-    font-weight: bold;
+font-weight: bold;
 }
-
+/* For small screens like mobile devices */
 @media (max-width: 768px) {
+    /* Adjusting text size and padding for smaller screens */
     .top h1 {
-        font-size: 1.2rem;
-        text-align: center;
-    }
-
-    .row {
-        display: block;
-    }
-
-    .col-md-4 {
-        width: 100%;
-        margin-bottom: 20px;
+        font-size: 1rem;  /* Increase size for better readability */
     }
 
     .main {
-        font-size: 14px;
+        font-size: 16px;  /* Increase font size for better readability on smaller screens */
+        padding-left: 15px;  /* Add more padding for better spacing */
     }
 
     .card-body {
-        font-size: 0.9rem;
+        font-size: 1rem;  /* Adjust font size for card body text */
+        padding: 15px;  /* Add more padding */
+    }
+
+    .card-title {
+        font-size: 2rem;  /* Slightly smaller title on mobile */
+    }
+
+    .card-text {
+        font-size: 1.2rem;  /* Adjust card text size */
     }
 
     .button {
-        font-size: 1rem;
+        font-size: 1rem;  /* Adjust button font size */
+        padding: 8px 15px;  /* Reduce padding to fit smaller screens */
+    }
+
+    footer {
+        font-size: 12px;  /* Smaller footer text */
     }
 }
 
-*,
-*::before,
-*::after {
-    box-sizing: border-box;
+
+/* For very small screens like portrait mobile */
+@media (max-width: 480px) {
+    /* Adjust font sizes and layout for very small screens */
+    .top h1 {
+        font-size: 1.2rem;  /* Slightly larger on very small screens */
+    }
+
+    .main {
+        font-size: 14px;  /* Smaller font size for tiny screens */
+        padding-left: 5px;  /* Reduce left padding */
+    }
+
+    .card-body {
+        font-size: 1rem;  /* Adjust font size for card body text */
+        padding: 10px;  /* Reduce padding for tight spaces */
+    }
+
+    .card-title {
+        font-size: 1.8rem;  /* Adjust card title size */
+    }
+
+    .card-text {
+        font-size: 1.1rem;  /* Adjust card text size */
+    }
+
+    .button {
+        font-size: 0.9rem;  /* Smaller button text */
+        padding: 6px 12px;  /* Reduce padding for tiny screens */
+    }
+
+    footer {
+        font-size: 14px;  /* Further reduce footer font size */
+    }
 }
-
-
