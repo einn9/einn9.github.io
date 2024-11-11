@@ -64,7 +64,7 @@ body {
         font-size: 14px;
         margin-left: 5px;
         margin-right: 5px;
-        padding-left: 50px; /* Slightly less padding on very small screens */
+        padding-left: 20px; /* Slightly less padding on very small screens */
     }
 
     .link {
