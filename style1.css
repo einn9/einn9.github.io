@@ -39,7 +39,7 @@ body {
 
     .main {
         font-size: 16px;
-        max-width: 70%; /* Further reduce the max width */
+        max-width: 50%; /* Further reduce the max width */
         margin-left: 15%; /* More space on the left */
         margin-right: 15%; /* More space on the right */
         word-wrap: break-word; /* Ensure text wraps properly */
