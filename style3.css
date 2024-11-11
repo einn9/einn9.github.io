@@ -1,5 +1,6 @@
 body {
-    background-image: url('https://i.imgur.com/87exqfV.png'); /* Change to the same image if you want them identical */
+    background-image: url('body {
+    background-image: url('https://i.imgur.com/MlzxLoC.png');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -9,50 +10,134 @@ body {
 }
 
 .main {
-    font-family: 'Pacifico', cursive;  /* Clean, modern sans-serif font */
-    font-size: 13px;  /* Adjust to your desired size */
-    font-weight: normal;  /* Light, non-bold text */
-    font-style: normal;  /* Regular, non-italic text */
-    line-height: 1.6;  /* Spacing between lines for readability */
-    letter-spacing: 0.1px;  /* Slight letter spacing for a modern feel */
-    color: black;  /* Dark text for contrast */
-    text-align: left;  /* Centered text */
+    font-family: 'Pacifico', cursive;
+    font-size: 13px;
+    font-weight: normal;
+    font-style: italic;
+    line-height: 1.6;
+    letter-spacing: 0.1px;
+    color: black;
+    text-align: left;
     background-size: cover;
     background-repeat: no-repeat;
-    font-style: italic;  /* Set the same for both if you want consistency */
-    max-width: 500px;  /* Optional: limit the maximum width */
-    box-sizing: border-box;  /* Ensures padding doesn't overflow the container */
-    margin-left: 0;  /* Keeps the text starting from the left */
-    margin-right: auto;  /* Ensures no extra space on the right */
+    max-width: 500px; /* Keeps the max width in check */
+    box-sizing: border-box;
+    margin-left: 0;
+    margin-right: auto;
+    padding: 10px; /* Adds padding for spacing */
+    word-wrap: break-word; /* Ensures text wraps properly */
 }
 
 .link {
-    color: black;
+    color: white; /* Make the link color white */
+    text-decoration: none;
 }
 
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Optional: for better contrast */
+    padding: 10px;
+    text-align: center;
+    color: white; /* Ensure the text in the footer is white */
+    font-size: small;
+}
+
+footer .copyright {
+    font-size: 12px;
+}
+
+/* Adjustments for screens smaller than 768px */
 @media (max-width: 768px) {
-    body {
-        background-attachment: scroll; /* Fixed background doesn't work well on mobile, so make it scrollable */
+    .main {
+        font-size: 30px;
+        margin-left: 15px;  /* Add margin to the left */
+        margin-right: 15px;  /* Add margin to the right */
+        padding-left: 25px;  /* Increase left padding */
+        max-width: 90%;  /* Reduce the max width */
+        color: white;
+        padding-bottom: 50px;  /* Add padding at the bottom to prevent footer overlap */
     }
 
-    .main {
-        font-size: 16px;  /* Increase font size for better readability on smaller screens */
-        padding: 10px;  /* Add some padding for better spacing */
-        max-width: 100%;  /* Allow text to take up full width on smaller screens */
-        margin-left: 10px;  /* Add small margin for better spacing */
-        margin-right: 10px;  /* Add small margin for better spacing */
-    }
-}
-
-/* For very small screens like portrait mobile */
-@media (max-width: 480px) {
-    .main {
-        font-size: 14px;  /* Slightly smaller font size for extremely small screens */
-        margin-left: 5px;  /* Reduce margin to make more space */
-        margin-right: 5px;  /* Reduce margin to make more space */
+    footer {
+        font-size: 10px;  /* Adjust font size for smaller screens */
     }
 
     .link {
-        font-size: 14px;  /* Adjust link font size for smaller screens */
+        font-size: 18px;
+        display: inline-block;
+        margin-top: 20px;
+        color: white !important; /* Make the link color white on mobile */
+    }
+}');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    margin: 0;
+    width: 100%;
+}
+
+.main {
+    font-family: 'Pacifico', cursive;
+    font-size: 13px;
+    font-weight: normal;
+    font-style: italic;
+    line-height: 1.6;
+    letter-spacing: 0.1px;
+    color: black;
+    text-align: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 500px; /* Keeps the max width in check */
+    box-sizing: border-box;
+    margin-left: 0;
+    margin-right: auto;
+    padding: 10px; /* Adds padding for spacing */
+    word-wrap: break-word; /* Ensures text wraps properly */
+}
+
+.link {
+    color: white; /* Make the link color white */
+    text-decoration: none;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Optional: for better contrast */
+    padding: 10px;
+    text-align: center;
+    color: white; /* Ensure the text in the footer is white */
+    font-size: small;
+}
+
+footer .copyright {
+    font-size: 12px;
+}
+
+/* Adjustments for screens smaller than 768px */
+@media (max-width: 768px) {
+    .main {
+        font-size: 30px;
+        margin-left: 15px;  /* Add margin to the left */
+        margin-right: 15px;  /* Add margin to the right */
+        padding-left: 25px;  /* Increase left padding */
+        max-width: 90%;  /* Reduce the max width */
+        color: white;
+        padding-bottom: 50px;  /* Add padding at the bottom to prevent footer overlap */
+    }
+
+    footer {
+        font-size: 10px;  /* Adjust font size for smaller screens */
+    }
+
+    .link {
+        font-size: 18px;
+        display: inline-block;
+        margin-top: 20px;
+        color: white !important; /* Make the link color white on mobile */
     }
 }
