@@ -78,12 +78,6 @@ padding: 20px; /* Space around the text */
     margin: 0; /* Remove margin */
 }
 
-img {
-    border: 0; /* Ensure no border around images */
-    margin: 0; /* Remove any margin */
-    padding: 0; /* Remove any padding */
-}
-
 .button{
     display: block;
     padding: 10px 20px;
@@ -179,4 +173,20 @@ font-weight: bold;
     footer {
         font-size: 14px;  /* Further reduce footer font size */
     }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;  /* Ensure full height of the body */
+}
+
+.card-body, .card-body img {
+    margin: 0;
+    padding: 0;
+    border: none;
 }
