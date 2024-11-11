@@ -39,11 +39,7 @@ body {
         margin-right: 15px;  /* Add margin to the right */
         padding-left: 25px;  /* Increase left padding */
         max-width: 90%;  /* Reduce the max width */
-    }
-
-    /* Change text color specifically on phones */
-    .main {
-        color: lightyellow;  /* Change text color for phones */
+        color: lightyellow;  /* Change text color to lightyellow for phones */
     }
 }
 
