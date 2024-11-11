@@ -19,11 +19,11 @@ body {
     text-align: left;
     background-size: cover;
     background-repeat: no-repeat;
-    max-width: 500px; /* Prevents the text from expanding too much */
+    max-width: 500px; /* Keeps the max width in check */
     box-sizing: border-box;
     margin-left: 0;
     margin-right: auto;
-    padding: 10px; /* Padding for spacing */
+    padding: 10px; /* Adds padding for spacing */
     word-wrap: break-word; /* Ensures text wraps properly */
 }
 
@@ -34,14 +34,14 @@ body {
 /* Adjustments for screens smaller than 768px */
 @media (max-width: 768px) {
     body {
-        background-attachment: scroll; /* Fixed background doesn't work well on mobile */
+        background-attachment: scroll;
     }
 
     .main {
         font-size: 16px;
-        max-width: 80%;  /* Further reduce max-width for smaller screens */
-        margin-left: 10%; /* Ensure the text has more room on the left */
-        margin-right: 10%; /* Ensure the text has more room on the right */
+        max-width: 70%; /* Further reduce the max width */
+        margin-left: 15%; /* More space on the left */
+        margin-right: 15%; /* More space on the right */
         word-wrap: break-word; /* Ensure text wraps properly */
     }
 }
@@ -50,14 +50,15 @@ body {
 @media (max-width: 480px) {
     .main {
         font-size: 14px;
-        margin-left: 10px;  /* Add some margin to the left */
-        margin-right: 10px;  /* Add some margin to the right */
-        padding-left: 20px;  /* Add more left padding for more space */
-        max-width: 100%;  /* Allow full width but keep the padding to control text flow */
+        margin-left: 15px;  /* Adds margin to the left */
+        margin-right: 15px;  /* Adds margin to the right */
+        padding-left: 25px;  /* Adds more left padding for more space */
+        max-width: 90%;  /* Reduce the max-width for very small screens */
     }
 
     .link {
         font-size: 14px;
     }
 }
+
 
