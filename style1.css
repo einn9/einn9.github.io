@@ -6,17 +6,17 @@ body {
     color: black; /* Default text color for Pages 2 and 3 */
 }
 
-/* Page 1 specific styling */
+/* Page 1 specific styling (text color white) */
 .page-1 .main {
     color: white; /* White text for Page 1 */
 }
 
-/* Page 2 specific styling */
+/* Page 2 specific styling (text color black) */
 .page-2 .main {
     color: black; /* Black text for Page 2 */
 }
 
-/* Page 3 specific styling */
+/* Page 3 specific styling (text color black) */
 .page-3 .main {
     color: black; /* Black text for Page 3 */
 }
@@ -89,7 +89,7 @@ footer .copyright {
         margin-right: 15px;
         padding-left: 25px;
         max-width: 90%;
-        color: white;
+        color: white;  /* Default text color for smaller screens */
         padding-bottom: 50px;
     }
 
