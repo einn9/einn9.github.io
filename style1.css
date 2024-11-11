@@ -15,7 +15,7 @@ body {
     font-style: italic;
     line-height: 1.6;
     letter-spacing: 0.1px;
-    color: black;  /* Default text color */
+    color: black;
     text-align: left;
     background-size: cover;
     background-repeat: no-repeat;
@@ -28,7 +28,7 @@ body {
 }
 
 .link {
-    color: black;  /* Default link color */
+    color: black;
 }
 
 /* Adjustments for screens smaller than 768px */
@@ -39,12 +39,11 @@ body {
         margin-right: 15px;  /* Add margin to the right */
         padding-left: 25px;  /* Increase left padding */
         max-width: 90%;  /* Reduce the max width */
-        color: lightyellow;  /* Change text color to lightyellow for phones */
+        color: lightyellow;
     }
 }
-
-.link {
-    font-size: 14px;
+    .link {
+        font-size: 14px;
+    }
 }
-
 
