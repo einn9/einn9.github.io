@@ -64,7 +64,6 @@ body {
         font-size: 14px;
         margin-left: 0;  /* Ensure no margin on left */
         margin-right: 0;  /* Ensure no margin on right */
-        padding-left: 10px;  /* Add small padding for spacing, avoid too much space */
     }
 
     .link {
