@@ -39,9 +39,9 @@ body {
 
     .main {
         font-size: 16px;
-        max-width: 90%;  /* Set max-width to 90% to take more space but still leave margin */
-        margin-left: 5%; /* Ensure the text doesn't touch the left edge */
-        margin-right: 5%; /* Ensure the text doesn't touch the right edge */
+        max-width: 80%;  /* Further reduce max-width for smaller screens */
+        margin-left: 10%; /* Ensure the text has more room on the left */
+        margin-right: 10%; /* Ensure the text has more room on the right */
         word-wrap: break-word; /* Ensure text wraps properly */
     }
 }
@@ -50,13 +50,14 @@ body {
 @media (max-width: 480px) {
     .main {
         font-size: 14px;
-        margin-left: 10px;  /* Ensure no margin on left */
-        margin-right: 10px;  /* Ensure no margin on right */
-        padding-left: 15px;  /* Add small padding for spacing */
-        max-width: 100%;  /* Allow it to take full width */
+        margin-left: 10px;  /* Add some margin to the left */
+        margin-right: 10px;  /* Add some margin to the right */
+        padding-left: 20px;  /* Add more left padding for more space */
+        max-width: 100%;  /* Allow full width but keep the padding to control text flow */
     }
 
     .link {
         font-size: 14px;
     }
 }
+
