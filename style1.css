@@ -43,11 +43,28 @@ body {
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 768px) {
+    body {
+        background-attachment: scroll; /* Fixed background doesn't work well on mobile */
+    }
+
     .main {
-        font-size: 15px;
+        font-size: 16px;
+        padding: 10px;
+        max-width: 100%;
         margin-left: 10px;
         margin-right: 10px;
+        padding-left: 20px; /* Ensure left padding on mobile for spacing */
+    }
+}
+
+/* For very small screens like portrait mobile */
+@media (max-width: 480px) {
+    .main {
+        font-size: 14px;
+        margin-left: 5px;
+        margin-right: 5px;
+        padding-left: 15px; /* Slightly less padding on very small screens */
     }
 
     .link {
