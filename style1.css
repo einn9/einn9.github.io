@@ -39,7 +39,7 @@ body {
         margin-right: 15px;  /* Add margin to the right */
         padding-left: 25px;  /* Increase left padding */
         max-width: 90%;  /* Reduce the max width */
-        color: lightyellow;
+        color: #2C3E50;
     }
 }
     .link {
