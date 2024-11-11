@@ -15,7 +15,7 @@ body {
     font-style: italic;
     line-height: 1.6;
     letter-spacing: 0.1px;
-    color: black;
+    color: black;  /* Default text color */
     text-align: left;
     background-size: cover;
     background-repeat: no-repeat;
@@ -28,7 +28,7 @@ body {
 }
 
 .link {
-    color: black;
+    color: black;  /* Default link color */
 }
 
 /* Adjustments for screens smaller than 768px */
@@ -40,10 +40,15 @@ body {
         padding-left: 25px;  /* Increase left padding */
         max-width: 90%;  /* Reduce the max width */
     }
-}
-    .link {
-        font-size: 14px;
+
+    /* Change text color specifically on phones */
+    .main {
+        color: lightyellow;  /* Change text color for phones */
     }
+}
+
+.link {
+    font-size: 14px;
 }
 
 
