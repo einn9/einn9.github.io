@@ -56,6 +56,7 @@ footer .copyright {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    color: black;
 }
 
 .page-3 {
@@ -63,6 +64,7 @@ footer .copyright {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    color: black;
 }
 
 /* Adjustments for screens smaller than 768px */
