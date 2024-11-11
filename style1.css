@@ -33,29 +33,14 @@ body {
 
 /* Adjustments for screens smaller than 768px */
 @media (max-width: 768px) {
-    body {
-        background-attachment: scroll;
-    }
-
     .main {
         font-size: 16px;
-        max-width: 50%; /* Further reduce the max width */
-        margin-left: 15%; /* More space on the left */
-        margin-right: 15%; /* More space on the right */
-        word-wrap: break-word; /* Ensure text wraps properly */
+        margin-left: 15px;  /* Add margin to the left */
+        margin-right: 15px;  /* Add margin to the right */
+        padding-left: 25px;  /* Increase left padding */
+        max-width: 90%;  /* Reduce the max width */
     }
 }
-
-/* Adjustments for very small screens like portrait mobile (max-width 480px) */
-@media (max-width: 480px) {
-    .main {
-        font-size: 14px;
-        margin-left: 10px;  /* Adds margin to the left */
-        margin-right: 15px;  /* Adds margin to the right */
-        padding-left: 25px;  /* Adds more left padding for more space */
-        max-width: 90%;  /* Reduce the max-width for very small screens */
-    }
-
     .link {
         font-size: 14px;
     }
