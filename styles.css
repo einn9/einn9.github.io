@@ -17,7 +17,7 @@ body {
 
 /* Main text written "myname is daniel"*/
 .main{
-    font-family: 'Roboto', sans-serif;  /* Corrected to sans-serif */
+    font-family: 'Roboto', cursive;  /* Clean, modern sans-serif font */
     font-size: 13px;  /* Adjust to your desired size */
     font-weight: normal;  /* Light, non-bold text */
     font-style: normal;  /* Regular, non-italic text */
@@ -45,23 +45,22 @@ body {
     border: none; /* Remove border */
 }
 
-.card-body {
-    box-shadow: none;
-    background-color: #CEBAD1;
-    font-family: 'Dancing Script', handwriting;
-    font-weight: bold;
-    font-size: 0.9rem;
-    text-align: center;
-    padding: 20px; /* Space around the text */
+.card-body{
+box-shadow: none;
+background-color: #CEBAD1;
+font-family: 'Dancing Script', handwriting;
+font-weight: bold;
+font-size: 0.9rem;
+text-align: center;
+padding: 20px; /* Space around the text */
     margin: 0; /* Remove any margin */
     border: none; /* Remove border */
 }
 
-.card-title {
+.card-title{
     font-size: 2.5rem; /* Larger font size for the title */
     font-weight: bold; /* Make the title bold */
-    margin-bottom: 10px; /* Space below the title */
-}
+    margin-bottom: 10px; /* Space below the title */}
 
 .card-text {
     font-size: 1.3rem; /* Smaller font size for the body text */
@@ -79,7 +78,7 @@ body {
     margin: 0; /* Remove margin */
 }
 
-.button {
+.button{
     display: block;
     padding: 10px 20px;
     background-color: #6C757D; /* Green */
@@ -91,7 +90,7 @@ body {
     white-space: nowrap; /* Ensure the button text doesn't wrap */
 }
 
-.button:hover {
+.button-hover{
     background-color: #45a049; /* Darker green on hover */
 }
 
@@ -103,9 +102,8 @@ footer {
 }
 
 strong {
-    font-weight: bold;
+font-weight: bold;
 }
-
 /* For small screens like mobile devices */
 @media (max-width: 768px) {
     /* Adjusting text size and padding for smaller screens */
@@ -173,7 +171,7 @@ strong {
     }
 
     footer {
-        font-size: 12px;  /* Further reduce footer font size */
+        font-size: 14px;  /* Further reduce footer font size */
     }
 }
 
@@ -182,4 +180,3 @@ strong {
     padding: 0;
     box-sizing: border-box;
 }
-
